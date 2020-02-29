@@ -1,5 +1,5 @@
 <header>
-    <a href="/">
+    <a href="/" class="logo">
         <!-- Logo SVG -->
         <!-- <img src="/images/logos/LWS-icon.svg" alt="London Web Standards" class="logo"> -->
 
@@ -94,9 +94,11 @@
 </header>
 
 <nav role="navigation">
+    {{ $currentPage := . }}
     <ul class="menu">
-        <li><a href="/" class="active">Home</a></li>
-        <li><a href="/events/">Events</a></li>
-        <li><a href="/about/">About</a></li>
+        <li><a href="/"{{ if .IsHome }} class="active"{{ end }}>Home</a></li>
+        {{ range .Site.Menus.main_nav }}
+        <li><a href="{{ .URL }}"{{ if or ($currentPage.IsMenuCurrent "main_nav" .) ($currentPage.HasMenuCurrent "main_nav" .) }}  class="active"{{ end }}>{{ .Name }}</a></li>
+        {{ end }}
     </ul>
 </nav>
