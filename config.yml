@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: /lws-2020-hugo/
 languagecode: "en-GB"
 permalinks:
   posts: /:year/:month/:title/
