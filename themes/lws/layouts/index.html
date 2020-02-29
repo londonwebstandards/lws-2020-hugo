@@ -1,20 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
 
-{{ define "main" }}
-    <main aria-role="main">
-      <header class="homepage-header">
-        <h1>{{.Title}}</h1>
-        {{ with .Params.subtitle }}
-        <span class="subtitle">{{.}}</span>
-        {{ end }}
-      </header>
-      <div class="homepage-content">
-        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
-        {{.Content}}
-      </div>
-      <div>
-        {{ range first 10 .Site.RegularPages }}
-            {{ .Render "summary"}}
-        {{ end }}
-      </div>
-    </main>
-{{ end }}
+        <main>
+            <div id="content">
+                <div class="narrow">
+                    <p>London Web Standards brings together web professionals who are working for a better web. Our by-monthly meetups provide them with an opportunity to teach, inspire, learn, network and debate.</p>
+                    <p>Each meetup features a speaker drawn from our membership or the wider standards community. The talks cover a range of topics including HTML5, JavaScript, CSS, accessibility, web fonts, UX and front-end performance.</p>
+                </div>
+                <h1>Next event</h1>
+            </div>
+        </main>
+        {{- partial "footer.html" . -}}
+    </body>
+</html>

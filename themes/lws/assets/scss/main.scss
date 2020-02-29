@@ -1,0 +1,153 @@
+@import "normalize.css";
+@import "fonts.scss";
+
+/* Variables */
+
+// LWS Colours
+
+$lws-blue: rgba(43, 57, 144, 1);
+$lws-fuxia: rgba(238, 42, 123, 1);
+$lws-green: rgba(31, 138, 113, 1);
+$lws-orange: rgba(244, 116, 33, 1);
+
+/* Globals */
+
+body {
+    background: rgba(31, 138, 113, 0.1);
+    font-family: "Playfair Display";
+}
+
+a {
+    color: $lws-fuxia;
+
+    &:active,
+    &:focus {
+        outline: 1px dotted $lws-fuxia;
+    }
+
+    &:hover {
+        color: darken($lws-green, 20%);
+    }
+
+    &:visited {
+        color: $lws-blue;
+    }
+}
+
+.narrow {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+// Buttons and icons
+
+.icon {
+    svg {
+        fill: $lws-fuxia;
+        max-width: 1.25rem;
+        vertical-align: text-bottom;
+
+        &:hover {
+            fill: $lws-blue;
+        }
+    }
+}
+
+/* Layout */
+
+header,
+main,
+footer {
+    padding: 1rem;
+}
+
+#content {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6,
+nav {
+    font-family: "Oswald";
+}
+
+/* Header */
+
+header {
+    background: #f8f8f8;
+
+    a {
+        color: black;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &:visited {
+            color: black;
+        }
+    }
+}
+
+.site-title {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* Navigation */
+
+nav {
+    background: rgba(0, 153, 189, 0.1);
+    border-bottom: 1px solid rgba(0, 153, 189, 0.2);
+    border-top: 1px solid rgba(0, 153, 189, 0.2);
+    text-align: center;
+
+    a {
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+
+        &:hover {
+            background: rgba(0, 153, 189, 1);
+            color: #fff;
+        }
+    }
+
+    .menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            margin-left: -4px;
+
+            &:not(:last-child) {
+                border-right: 3px solid rgba(0, 153, 189, 0.2);
+            }
+            
+        }
+    }
+}
+
+/* Main */
+
+main {
+    background: #f8f8f8;
+    color: #474747;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+footer {
+    border-top: 1px solid rgba(31, 138, 113, 0.2)
+}
