@@ -1,20 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
 
-{{ define "main" }}
-    <main aria-role="main">
-      <header class="homepage-header">
-        <h1>{{.Title}}</h1>
-        {{ with .Params.subtitle }}
-        <span class="subtitle">{{.}}</span>
-        {{ end }}
-      </header>
-      <div class="homepage-content">
-        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
-        {{.Content}}
-      </div>
-      <div>
-        {{ range first 10 .Site.RegularPages }}
-            {{ .Render "summary"}}
-        {{ end }}
-      </div>
-    </main>
-{{ end }}
+        <main>
+            <div id="content">
+                <div class="narrow">
+                    <p>London Web Standards brings together web professionals who are working for a better web. Our by-monthly meetups provide them with an opportunity to teach, inspire, learn, network and debate.</p>
+                    <p>Each meetup features a speaker drawn from our membership or the wider standards community. The talks cover a range of topics including HTML5, JavaScript, CSS, accessibility, web fonts, UX and front-end performance.</p>
+                </div>
+                <h1>Next event</h1>
+                <div class="narrow">
+                    <div class="event latest">
+                        <h2><a href="/events/may-2020/">May 2020 - #HashtagComingSoon</a></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>
+                            <a class="button primary" href="#">Get tickets</a>
+                            <a class="button secondary" href="#">Read more about #lwsMay20</a>
+                        </p>
+                    </div>
+                </div>
+                <h2>Past events</h2>
+                <div class="narrow half">
+                    <div class="event past">
+                        <h3><a href="/events/past-event-1/">State of the Browser 2019</a></h3>
+                        <p><time>14 September 2019</time></p>
+                        <p>The eighth edition of State of the Browser, a yearly conference organised by London Web Standards. A one-day, single-track conference with widely varying talks about the modern web, accessibility, web standards and more.</p>
+                        <p><a href="https://2019.stateofthebrowser.com/" class="button secondary">Read more about #Sotb2019</a></p>
+                    </div>
+                    <div class="event past">
+                        <h3><a href="/events/past-event-1/">State of the Browser 2018</a></h3>
+                        <p><time>8 Septmeber 2018</time></p>
+                        <p>The seventh edition of State of the Browser, a yearly conference organised by London Web Standards that connects browser vendors and the web community.</p>
+                        <p><a href="https://2018.stateofthebrowser.com/" class="button secondary">Read more about #Sotb2018</a></p>
+                    </div>
+                    <div class="event past">
+                        <h3><a href="/events/past-event-1/">#lwsAug18</a></h3>
+                        <p><time>20 August 2018</time></p>
+                        <h4 class="post-title">The Atomic Way!</h4>
+                        <p class="by-line">by Alana Foley-Keane <a href="//twitter.com/AlanaFoleyKeane">@AlanaFoleyKeane</a></p>
+                        <p><a href="#" class="button secondary">Read more about #lwsAug18</a></p>
+                    </div>
+                    <div class="event past">
+                        <h3><a href="/events/past-event-2/">#lwsJul18</a></h3>
+                        <p><time>16 July 2018</time></p>
+                        <h4 class="post-title">Your Reality Here</h4>
+                        <p class="by-line">by Peter Gasston <a href="//twitter.com/stopsatgreen">@stopsatgreen</a></p>
+                        <h4 class="post-title">The LEGO guide to Developer Experience and your library</h4>
+                        <p class="by-line">by Cristiano Betta <a href="//twitter.com/cbetta">@cbetta</a></p>
+                        <p><a href="#" class="button secondary">Read more about #lwsJul18</a></p>
+                    </div>
+                    <div class="event past">
+                        <p><time>18 June 2018</time></p>
+                        <h3><a href="/events/past-event-3/">#lwsJun18</a></h3>
+                        <h4 class="post-title">Re-decentralising the web</h4>
+                        <p class="by-line">by Calum Ryan <a href="//twitter.com/calum_ryan">@calum_ryan</a></p>
+                        <h4 class="post-title">Narrowing the gap between native and web apps: Web Push Notifications</h4>
+                        <p class="by-line">by Massimo Franciosa <a href="//twitter.com/mazzimo_f">@mazzimo_f</a></p>
+                        <p><a href="#" class="button secondary">Read more about #lwsJun18</a></p>
+                    </div>
+                </div>
+                <div class="narrow">
+                    <p><a href="/events/" class="button">More events</a></p>
+                </div>
+            </div>
+        </main>
+        {{- partial "footer.html" . -}}
+    </body>
+</html>
