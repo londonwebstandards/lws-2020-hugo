@@ -108,7 +108,8 @@ button,
 
 .pretty-list {
     list-style: none;
-    margin: 0;
+    // margin: 0;
+    padding: 0;
 
     li {
         &:not(:last-child) {
@@ -247,6 +248,13 @@ main {
         border-left: 8px solid rgba($lws-fuxia, .3);
         background: rgba($light-grey, 0.5);
     }
+}
+
+.alert {
+    background: rgba($lws-fuxia, .3);
+    border: 1px solid $lws-fuxia;
+    border-radius: 4px;
+    font-size: 1.25rem;
 }
 
 /* Footer */
