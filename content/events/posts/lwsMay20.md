@@ -2,7 +2,7 @@
 title: "May 2020"
 date: 2020-03-01T15:17:49Z
 layouts: posts
-url: /events/lwsMay20/
+url: /events/lwsmay20/
 event_date: "18 May 2020"
 ---
 
