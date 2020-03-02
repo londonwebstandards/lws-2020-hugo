@@ -24,15 +24,15 @@ Should the content of the site change in future, this statement will be updated 
 
 ### What to do if you cannot access parts of this website and Reporting accessibility problems with this website
 
-We’re always looking to improve the accessibility of this website. If you find any problems not listed on this page or think we’re not meeting accessibility requirements, contact: 
+We're always looking to improve the accessibility of this website. If you find any problem not listed on this page or think we're not meeting accessibility requirements, please contact us (see below). 
 
-Should you have any problem accessing sections on this site, please let us know, we will try to fix any possible issue and provide the information in alternative forms.
+We will try to fix any possible issue and provide the information in alternative forms.
 
 **Email us at** organisers [at] londonwebstandards [dot] org
 
 OR ping us on Twitter [@webstandards](https://twitter.com/webstandards)
 
-### What we’re doing to improve accessibility
+### What we're doing to improve accessibility
 
 We are constantly reviewing the site and this statement to improve access to our content for all users.
 
