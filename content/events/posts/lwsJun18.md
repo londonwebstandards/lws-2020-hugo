@@ -17,7 +17,7 @@ We'll see how the IndieWeb has a part to play in re-decentralising the web: maki
 ### About Calum
 
 Calum Ryan is a front-end developer living in Tonbridge, Kent who also co-organises a monthly meetup called
-[Homebrew Website London](https://web.archive.org/web/20190405141409/https://hwclondon.co.uk/) in his spare time: supporting IndieWeb's people-focused rather than project-focused approach. For the past 5 years he's worked remotely for Essex-based digital marketing agency We Create Digital developing customised themes for WordPress and for the e-commerce platform Magento.
+[Homebrew Website London](//hwclondon.co.uk/) in his spare time: supporting IndieWeb's people-focused rather than project-focused approach. For the past 5 years he's worked remotely for Essex-based digital marketing agency We Create Digital developing customised themes for WordPress and for the e-commerce platform Magento.
 
 ---
 
