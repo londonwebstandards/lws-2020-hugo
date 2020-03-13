@@ -1,0 +1,45 @@
+/* Adding custom fonts */
+
+// Oswald
+// https://fonts.google.com/specimen/Oswald
+
+@font-face {
+    font-family: "Oswald";
+    src: url("/fonts/Oswald/static/Oswald-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("/fonts/Oswald/static/Oswald-Bold.ttf");
+    font-weight: 700;
+}
+
+// Playfair Display
+// https://fonts.google.com/specimen/Playfair+Display
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("/fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf");
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("/fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("/fonts/Playfair_Display/static/PlayfairDisplay-BoldItalic.ttf");
+    font-style: italic;
+    font-weight: 700;
+}

@@ -1,0 +1,8 @@
+baseURL: /
+languagecode: "en-GB"
+permalinks:
+  posts: /:year/:month/:title/
+theme: lws
+assetDir: lws/assets
+title: London Web Standards
+publishDir: docs
