@@ -9,7 +9,7 @@
     <!-- Ranges through content/posts/*.md -->
     {{ range .Pages }}
         <li>
-            <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <h2 class="post-title"><a href="{{ .Site.BaseURL }}{{ .Permalink }}">{{ .Title }}</a></h2>
             <p class="by-line"><time>{{ .Params.event_date }}</time></p>
             <!-- <p class="by-line"><time>{{ .Date.Format "2 January 2006" }}</time></p> -->
             <p>{{ .Summary }}</p>
