@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>London Web Standards</title>
+    <link>//londonwebstandards.github.io/lws-2020-hugo/</link>
+    <description>Recent content on London Web Standards</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Sun, 01 Mar 2020 15:17:49 +0000</lastBuildDate>
+    
+	<atom:link href="//londonwebstandards.github.io/lws-2020-hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>//londonwebstandards.github.io/lws-2020-hugo/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//londonwebstandards.github.io/lws-2020-hugo/about/</guid>
+      <description>London Web Stardards is a group of volunteers that run bi-monthly meet-ups and a yearly conference (State of the Browser) to bring together web professionals who are working for a better web.
+We care about a lot of web-related topics like including HTML5, JavaScript, CSS, accessibility, web fonts, UX and front-end performance among others.</description>
+    </item>
+    
+    <item>
+      <title>May 2020</title>
+      <link>//londonwebstandards.github.io/lws-2020-hugo/events/lwsmay20/</link>
+      <pubDate>Sun, 01 Mar 2020 15:17:49 +0000</pubDate>
+      
+      <guid>//londonwebstandards.github.io/lws-2020-hugo/events/lwsmay20/</guid>
+      <description>18 May 2020 We are back! And we are finally restarting our web community meetups.
+RVU (map) has kindly agreed to host us and we will update this page has soon as we have more details about the speakers and the arrangements for the evening.
+As per usual, we will have an event page ready for registration.
+Stay tuned, update coming soon.
+&amp;ndash; The LWS team</description>
+    </item>
+    
+    <item>
+      <title>State of the Browser 2019</title>
+      <link>//londonwebstandards.github.io/lws-2020-hugo/events/sotb-2019/</link>
+      <pubDate>Sat, 14 Sep 2019 09:00:00 +0000</pubDate>
+      
+      <guid>//londonwebstandards.github.io/lws-2020-hugo/events/sotb-2019/</guid>
+      <description>14 September 2019 The eighth edition of State of the Browser, a yearly conference organised by London Web Standards. A one-day, single-track conference with widely varying talks about the modern web, accessibility, web standards and more.
+Visit the #Sotb2019 website.</description>
+    </item>
+    
+    <item>
+      <title>State of the Browser 2018</title>
+      <link>//londonwebstandards.github.io/lws-2020-hugo/events/sotb-2018/</link>
+      <pubDate>Sat, 08 Sep 2018 10:00:00 +0000</pubDate>
+      
+      <guid>//londonwebstandards.github.io/lws-2020-hugo/events/sotb-2018/</guid>
+      <description>8 Semptember 2018 The seventh edition of State of the Browser, a yearly conference organised by London Web Standards that connects browser vendors and the web community.
+Visit the #Sotb2018 website.</description>
+    </item>
+    
+    <item>
+      <title>#lwsAug18</title>
+      <link>//londonwebstandards.github.io/lws-2020-hugo/events/lwsaug18/</link>
+      <pubDate>Mon, 20 Aug 2018 18:30:00 +0000</pubDate>
+      
+      <guid>//londonwebstandards.github.io/lws-2020-hugo/events/lwsaug18/</guid>
+      <description>20 August 2018 We are still working on recovering the details for this specific events.
+The Atomic Way! by Alana Foley-Keane @AlanaFoleyKeane</description>
+    </item>
+    
+    <item>
+      <title>#lwsJul18</title>
+      <link>//londonwebstandards.github.io/lws-2020-hugo/events/lwsjul18/</link>
+      <pubDate>Mon, 16 Jul 2018 18:30:00 +0000</pubDate>
+      
+      <guid>//londonwebstandards.github.io/lws-2020-hugo/events/lwsjul18/</guid>
+      <description>16 July 2018 Your Reality Here by Peter Gasston @stopsatgreen
+The smartphone market has reached maturity, and everyone&amp;rsquo;s wondering what&amp;rsquo;s next. In this talk Peter will look at the most likely candidate for the post-mobile platform, giving reasons why it&amp;rsquo;s the most likely, and exploring what role the Web will play.
+About Peter Peter is a veteran web developer and technologist who now works as innovation lead at London agency rehab, on projects for clients including Google and Facebook, and in partnership with some of the world&amp;rsquo;s biggest creative agencies.</description>
+    </item>
+    
+    <item>
+      <title>#lwsJun18</title>
+      <link>//londonwebstandards.github.io/lws-2020-hugo/events/lwsjun18/</link>
+      <pubDate>Mon, 18 Jun 2018 18:30:00 +0000</pubDate>
+      
+      <guid>//londonwebstandards.github.io/lws-2020-hugo/events/lwsjun18/</guid>
+      <description>18 June 2018 Re-decentralising the web by Calum Ryan @calum_ryan
+We&amp;rsquo;ll see how the IndieWeb has a part to play in re-decentralising the web: making the case for less dependence on centralised services like Facebook and Twitter without necessarily abandoning them altogether. We&amp;rsquo;ll discuss practical ways forward to achieve this not only as individuals but as a community broadening awareness and inclusion beyond the tech bubble. Plus a look at the latest W3C specifications including Webmentions and Micropub.</description>
+    </item>
+    
+    <item>
+      <title>#lwsMay18</title>
+      <link>//londonwebstandards.github.io/lws-2020-hugo/events/lwsmay18/</link>
+      <pubDate>Mon, 21 May 2018 18:30:00 +0000</pubDate>
+      
+      <guid>//londonwebstandards.github.io/lws-2020-hugo/events/lwsmay18/</guid>
+      <description>21 May 2018 Teaching JavaScript to Sing by David Miller @Orangetronic
+JavaScript has some pretty powerful new(ish) language features these days, and browser adoption is great! Let’s talk about why these features are popping up, get to know them a bit, and see if we can have some fun along the way. We’ll be looking at Set, Map, Promises, async / await, and having some fun with our old friends Object and Array.</description>
+    </item>
+    
+    <item>
+      <title>Accessibility statement for London Web Standards</title>
+      <link>//londonwebstandards.github.io/lws-2020-hugo/accessibility-statement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//londonwebstandards.github.io/lws-2020-hugo/accessibility-statement/</guid>
+      <description>This website is run by London Web Standards, a group of volunteers. We want as many people as possible to be able to use this website. For example, that means you should be able to:
+ change colours, contrast levels and fonts zoom in up to 300% without the text spilling off the screen navigate most of the website using just a keyboard navigate most of the website using speech recognition software listen to most of the website using a screen reader (including the most recent versions of JAWS, NVDA and VoiceOver)  We&amp;rsquo;ve also made the website text as simple as possible to understand.</description>
+    </item>
+    
+    <item>
+      <title>Cookie disclaimer</title>
+      <link>//londonwebstandards.github.io/lws-2020-hugo/cookie-disclaimer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//londonwebstandards.github.io/lws-2020-hugo/cookie-disclaimer/</guid>
+      <description>We are not currently setting any cookie.
+But we will update this page if we start tracking anything.</description>
+    </item>
+    
+  </channel>
+</rss>

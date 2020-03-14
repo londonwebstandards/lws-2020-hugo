@@ -1,7 +1,19 @@
-<header>
-    <a href="{{ .Site.BaseURL }}" class="logo">
-        <!-- Logo SVG -->
-        <!-- <img src="/images/logos/LWS-icon.svg" alt="London Web Standards" class="logo"> -->
+<!DOCTYPE html>
+<html lang="en-GB"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>London Web Standards</title>
+    <meta name="author" content="London Web Standards">
+    <meta name="description" content="London Web Standards brings together web professionals who are working for a better web. Our bi-monthly meetups provide them with an opportunity to teach, inspire, learn, network and debate.">
+
+    
+    
+    <link rel="stylesheet" href="//londonwebstandards.github.io/lws-2020-hugo/css/style.css">
+    <link rel="icon" href="//londonwebstandards.github.io/lws-2020-hugo/images/favicon.png" type="image/x-icon">
+</head><body><header>
+    <a href="//londonwebstandards.github.io/lws-2020-hugo/" class="logo">
+        
+        
 
         <svg
            xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -87,18 +99,39 @@
         </svg>
 
 
-        <!-- Logo SVG ends -->
+        
 
         <h2 class="site-title">London Web Standards</h2>
     </a>
 </header>
 
 <nav role="navigation">
-    {{ $currentPage := . }}
+    
     <ul class="menu">
-        <li><a href="{{ .Site.BaseURL }}"{{ if .IsHome }} class="active"{{ end }}>Home</a></li>
-        {{ range .Site.Menus.main_nav }}
-        <li><a href="{{ .URL }}"{{ if or ($currentPage.IsMenuCurrent "main_nav" .) ($currentPage.HasMenuCurrent "main_nav" .) }}  class="active"{{ end }}>{{ .Name }}</a></li>
-        {{ end }}
+        <li><a href="//londonwebstandards.github.io/lws-2020-hugo/">Home</a></li>
+        
+        <li><a href="/lws-2020-hugo/events/">Events</a></li>
+        
+        <li><a href="/lws-2020-hugo/about/">About</a></li>
+        
     </ul>
-</nav>
+</nav><main>
+            <div id="content">
+<h1 class="page-title">May 2020</h1>
+<div class="narrow">
+    <h2 id="18-may-2020">18 May 2020</h2>
+<p>We are back! And we are finally restarting our web community meetups.</p>
+<p><a href="//www.rvu.co.uk/">RVU</a> (<a href="//g.page/rvucouk?share">map</a>) has kindly agreed to host us and we will update this page has soon as we have more details about the speakers and the arrangements for the evening.</p>
+<p>As per usual, we will have an event page ready for registration.</p>
+<p>Stay tuned, update coming soon.</p>
+<p>&ndash; <em>The LWS team</em></p>
+
+</div>
+
+            </div>
+        </main><footer>
+    <p><a href="/accessibility-statement/">Accessibility statement</a> | <a href="/cookie-disclaimer/">Cookie disclaimer</a></p>
+    <p>&copy; 2020 London Web Standards | <a href="//twitter.com/webstandards/" aria-labelledby="twitter-icon" class="icon"><span id="twitter-icon" hidden>Follow us on Twitter</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a></p>
+    <p>Built with <a href="https://gohugo.io/">Hugo</a> and a lot of love.</p>
+</footer></body>
+</html>
