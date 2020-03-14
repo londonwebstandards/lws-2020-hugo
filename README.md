@@ -8,4 +8,4 @@ Run `hugo server` with optional flags `--disableFastRender --gc -D` to run local
 
 Run `hugo` to generate the static site. Process will be automated at a later stage.
 
-Build with [Hugo](https://gohugo.io/).
+Built with [Hugo](https://gohugo.io/).
