@@ -6,6 +6,6 @@ London Web Standards brings together web professionals who are working for a bet
 
 Run `hugo server` with optional flags `--disableFastRender --gc -D` to run locally.
 
-Run `hugo` to generate the static site. Process will automated at a later stage.
+Run `hugo` to generate the static site. Process will be automated at a later stage.
 
 Build with [Hugo](https://gohugo.io/).
