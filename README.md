@@ -8,4 +8,6 @@ Run `hugo server` with optional flags `--disableFastRender --gc -D` to run local
 
 Run `hugo` to generate the static site. Process will be automated at a later stage.
 
+To deploy, you can run `./deploy.sh` to run the script. (You might need to adjust permission to run it `chmod +x deploy.sh`).
+
 Built with [Hugo](https://gohugo.io/).
