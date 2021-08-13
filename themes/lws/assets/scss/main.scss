@@ -115,6 +115,21 @@ button,
     }
 }
 
+// Forms
+
+input {
+    &[type="submit"] {
+        border: 0 0 5px;
+        border-left-style: none;
+        border-right-style: none;
+        border-top-style: none;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
 // Images
 
 // Lists
